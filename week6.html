@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>자기소개서 구조화</title>
+            <style>
+            table { border-collapse: collapse;}
+            td, th {
+                text-align: left;
+                padding: 5px;
+                height: 15px;
+                width: 100px;
+            }
+            thead, tfoot {
+                background: darkgray;
+                color: yellow;
+            }
+            tbody tr:nth-child(even) {
+                background: aliceblue;
+            }
+            tbody tr:hover {
+                background: pink;
+            }
+            footer { background-color: orange;
+                     padding: 2px;
+                     border-radius: 30px;}
+            body { background-color: aliceblue;}
+            h1 { color: brown; text-align: center;}
+            nav > ul { border-width: 1px;
+                       border-style: dotted;
+                       border-color: black;}
+            h2 { text-shadow: 2px 2px 5px blue;}
+            p { font-family: '휴먼편지체';
+                font-size: 1em;
+                text-indent: 1em;}
+            h6 { font-family: '휴먼편지체';
+                 font-size: 1em;
+                 text-indent: 1em;}
+            a { text-decoration: none;}
+              </style>
+       </head>
+<body>
+    <header>
+        <h1>About me</h1><hr><br>
+        <p>
+        안녕하세요 제이름은 조준영입니다. 올해 대학교 입학한 새내기 입니다.<br>
+        다양한 관심분야와 취미미할동을 하고 있습니다. 즐거운 하루 되세요~<br><br>
+        </p>
+        <audio src="vod.m4a" controls loop></audio>            
+    </header><br>
+
+    <nav>
+        <h2>목차</h2>
+        <ul>
+            <li><a href="#week1">관심분야</a>
+            <li><a href="#week2">취미활동</a>
+            <li><a href="#week3">강의 시간표</a>
+        </ul>
+    </nav><br><br><br>
+
+    <section>
+
+        <article>
+        <h2 id="week1">관심분야</h2>
+        <ul>
+            <li>철학
+        <ul>
+            <li>순수이성비판
+            <li>공리주의
+            <li>개인주의
+        </ul>
+            <li>책읽기
+        <ul>
+            <li>왜 칸트인가
+            <li>니체의 인생수업
+            <li>이방인
+        </ul>
+             <li>애니
+         <ul>
+             <li>사이버 펑크 엣지 러너
+             <li>너의 이름은
+            <li>지
+         </ul>
+       
+        </ul>
+    </article><br><br>
+
+    <article>
+        <h2 id="week2">취미활동</h2><hr>
+        <table border="1">
+        <tbody>
+        <tr>
+            <td><img src="cjfgkr.jpg"></td>
+            <td><img src="cor.jpg"></td>
+            <td><img src="dosl.jpg"></td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr><th>철학</th><th>책 읽기</th><th>애니</th></tr>
+        </tfoot>
+        </table><br>
+        </article>
+
+    <article>
+        <h2 id="week3">강의 시간표(2025년 1학기)</h2><hr>
+        <table border="1">
+            <thead>
+                <tr><th>구분</th><th>월</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;화&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>수</th><th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;목&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>금</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>&nbsp;09<br></td><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
+                <tr><td>&nbsp;10</td><td>&nbsp;</td><td rowspan="3">&nbsp;인터넷콘텐츠<br>(103/공학615)</td><td>&nbsp;</td><td rowspan="3">&nbsp;프로그래밍언어I<br>&nbsp;&nbsp;(103/공학603)</td><td></td></tr>
+                <tr><td>&nbsp;11</td><th>&nbsp;</th><th></th><th>&nbsp;</th></tr>
+                <tr><td>&nbsp;12</td><th>&nbsp;</th><th></th><th>&nbsp;</th></tr>
+                <tr><td>&nbsp;01</td><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
+                <tr><td>&nbsp;02</td><td>&nbsp;</td><td><td>&nbsp;</td><td rowspan="4">컴퓨터과학개론<br>&nbsp;(103/공학507)</td><td></td></tr>
+                <tr><td>&nbsp;03</td><th>&nbsp;</th><th>&nbsp;</th><td rowspan="3">SW개발문제해결능력<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(103/공학609)</td><th></th></tr>
+                <tr><td>&nbsp;04</td><th>&nbsp;</th><td rowspan="3">컴퓨팅 사고력<br>(103/공학608)</td></th><th>&nbsp;</th></tr>
+                <tr><td>&nbsp;05</td><th>&nbsp;</th><th>&nbsp;</th></tr>
+                <tr><td>&nbsp;06</td><th>&nbsp;</th><th></th><th>&nbsp;</th><td></td></tr>
+            </tbody>
+    
+        </table>
+        <hr>
+    </article>
+    </section><br><br>
+    <footer><br>
+        <p>
+        <a href="survey.html">설문조사</a>
+        <h6>2025년 3월 18일1 작성</h6>
+        </p>
+    </footer>
+</body>
+</html>
